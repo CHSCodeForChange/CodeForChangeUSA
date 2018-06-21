@@ -27,4 +27,5 @@ urlpatterns = [
 	url(r'^contact/', views.contact),
 	url(r'^home/', views.home),
 	url(r'^$', RedirectView.as_view(url='/home/')),
+    url(r'^history/', views.history),
 ]
